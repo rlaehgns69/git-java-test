@@ -12,7 +12,7 @@ public class Bike {
         System.out.println(riderName + "의 자전거는 " + wheel + "발 자전거입니다.");
     }
 
-    void ride(){
-        
+    void ride() {
+        System.out.println("씽씽");
     }
 }
