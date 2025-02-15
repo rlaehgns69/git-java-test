@@ -17,7 +17,7 @@ public class Person {
         p.powerOn();
     }
 
-    void turnOff() {
+    void turnOffPhone() {
         p.powerOff();
     }
 
@@ -29,7 +29,7 @@ public class Person {
         }
     }
 
-    void charge() {
+    void chargePhone() {
         p.charge();
     }
 }

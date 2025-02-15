@@ -45,7 +45,7 @@ public class ThreeStarPhone implements Phone {
         if (batteryCapacity > 15) {
             System.out.println("---유튜브 시청중---");
             batteryCapacity -= 5;
-            System.out.printf("잔여 배터리... %d%%\n");
+            System.out.printf("잔여 배터리... %d%%\n", batteryCapacity);
         } else {
             System.out.println("배터리가 부족합니다...");
             powerOff();

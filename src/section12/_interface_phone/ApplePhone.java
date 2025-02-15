@@ -46,7 +46,7 @@ public class ApplePhone implements Phone {
         if (batteryCapacity > 10) {
             System.out.println("---watching Utube---");
             batteryCapacity -= 10;
-            System.out.printf("battery is... %d%%\n");
+            System.out.printf("battery is... %d%%\n", batteryCapacity);
         } else {
             System.out.println("Low battery...");
             powerOff();
