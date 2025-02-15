@@ -1,4 +1,4 @@
-package section12._interface;
+package section12._interface_phone;
 
 public interface Phone {
     // 상수
