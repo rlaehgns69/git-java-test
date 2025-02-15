@@ -9,5 +9,11 @@ public class Ex11_12 {
 
         computerRoom.allPowerOn();
         computerRoom.allPowerOff();
+    
+        System.out.println("--- instanceof 연산자 실습 추가 ---");
+
+        System.out.println(computerRoom.computer1 instanceof Samsong);
+        System.out.println(computerRoom.computer1 instanceof Computer);
+        System.out.println(computerRoom.computer1 instanceof Apple);
     }
 }
