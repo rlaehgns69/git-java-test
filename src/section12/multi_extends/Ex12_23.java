@@ -1,4 +1,4 @@
-package section12.multi_exrtends;
+package section12.multi_extends;
 
 public class Ex12_23 {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Ex12_23 {
         // Microphone microphone = bluetoothMic;
         // microphone.sing();
         // // miscrophone.music(); // 인터페이스로 형변환이 가능하나 타입이 바뀐거니까 해당 메서드만 호출 가능. // 호출
-        // ㅂ불가
+        // 불가
 
         // Speaker speaker = bluetoothMic;
         // speaker.music();
