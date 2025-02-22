@@ -10,5 +10,11 @@ public class NumberFormatExceptionExample {
         System.out.println("String to int :" + (num01 + 9));
 
         int num02 = Integer.parseInt(str02);
+
+        System.out.println("String to int :" + (num02 + 9));
+
+        double num03 = Double.parseDouble("1.11");
+        
+        System.out.println("String to double :" + (num03 + 9));
     }
 }
