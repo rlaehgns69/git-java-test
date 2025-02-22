@@ -1,6 +1,5 @@
 package section13.practice;
 
-import section13.practice.MyCar.Promotion;
 
 class MyCar {
     private int price;
